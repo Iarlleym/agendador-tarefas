@@ -22,6 +22,7 @@ public class TarefasEntity {
     //LocaDate trabalha com data - LocalDateTime trabalha com data e hora.
     private LocalDateTime dataCriacao;
     private LocalDateTime dataEvento;
+    private LocalDateTime dataAlteracao;
     private String emailUsuario;
     //enunms são uma classe que representa um grupo fixo de constantes. (nesse caso - Pendente, Notificado e Cancelado)
     private StatusNotificacaoEnum statusNotificacaoEnum;
